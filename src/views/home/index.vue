@@ -1,0 +1,46 @@
+<template>
+    <div class="home">
+        <span v-for="linkItem of linkItemList"
+              :key="linkItem.id"
+              @click="goRelated( linkItem.name, linkItem.url )"
+        > {{ linkItem.name }}
+        </span>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'home',
+
+        data: () => ( {
+            linkItemList: [
+                {
+                    id: 1,
+                    name: 'about',
+                    url: '/about',
+                },
+                {
+                    id: 2,
+                    name: 'builtIn-components',
+                    url: '/builtIn_components',
+                },
+            ],
+        } ),
+
+        methods: {
+            goRelated( goName, goUrl )
+            {
+                this.$router.push( {
+                    name: goName,
+                    path: goUrl,
+                } );
+            }
+        },
+    }
+</script>
+
+<style lang="scss"
+       scoped
+>
+    @import "style";
+</style>
