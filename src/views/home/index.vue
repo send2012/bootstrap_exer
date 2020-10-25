@@ -1,6 +1,7 @@
 <template>
     <div class="home">
-        <span v-for="linkItem of linkItemList"
+        <span class="home-go"
+              v-for="linkItem of linkItemList"
               :key="linkItem.id"
               @click="goRelated( linkItem.name, linkItem.url )"
         > {{ linkItem.name }}

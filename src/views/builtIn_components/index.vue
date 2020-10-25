@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="builtIn-components">
         <img alt="Vue logo"
              :src="require( '@/assets/logo.png' )"
         />
@@ -20,3 +20,9 @@
         },
     }
 </script>
+
+<style lang="scss"
+       scoped
+>
+    @import "style";
+</style>

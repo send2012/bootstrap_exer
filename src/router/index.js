@@ -6,7 +6,7 @@ Vue.use( VueRouter );
 const routes = [
     {
         path     : '/',
-        name     : 'Home',
+        name     : 'home',
         meta: {
             title: 'home',
         },
@@ -14,7 +14,7 @@ const routes = [
     },
     {
         path     : '/about',
-        name     : 'About',
+        name     : 'about',
         meta: {
             title: 'about',
         },

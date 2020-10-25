@@ -1,3 +1,16 @@
 .home {
-    width: auto;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    width           : auto;
+    padding         : 5rem;
+
+    &-go {
+        width            : auto;
+        padding          : 1rem;
+        background-color : #030;
+        border-radius    : 50%;
+        color            : #0f0;
+        font-size        : 1.3rem;
+    }
 }
