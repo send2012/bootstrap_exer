@@ -31,6 +31,16 @@ const routes = [
         },
         component: () => import( '@/views/builtIn_components/' ),
     },
+    {
+        path: '/alert',
+        name: 'b-alert',
+        component: () => import( '@/views/alert/' ),
+    },
+    {
+        path: '/avatar',
+        name: 'b-avatar',
+        component: () => import( '@/views/avatar/' ),
+    },
 ];
 
 const router = new VueRouter( {

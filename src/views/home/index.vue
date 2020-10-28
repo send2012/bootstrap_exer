@@ -25,6 +25,16 @@
                     name: 'builtIn-components',
                     url: '/builtIn_components',
                 },
+                {
+                    id: 3,
+                    name: 'b-alert',
+                    url: '/alert',
+                },
+                {
+                    id: 4,
+                    name: 'b-avatar',
+                    url: '/avatar',
+                },
             ],
         } ),
 
