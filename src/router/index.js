@@ -41,6 +41,11 @@ const routes = [
         name: 'b-avatar',
         component: () => import( '@/views/avatar/' ),
     },
+    {
+        path: '/button',
+        name: 'b-button',
+        component: () => import( '@/views/button/' )
+    },
 ];
 
 const router = new VueRouter( {
