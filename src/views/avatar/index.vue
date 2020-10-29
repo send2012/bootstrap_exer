@@ -7,16 +7,18 @@
                           variant="primary"
                           text="FF"
                           class="align-baseline"
-                > Button Text Avatar
-                </b-avatar>
+                ></b-avatar>
+
+                Button Text Avatar
             </b-list-group-item>
 
             <b-list-group-item>
                 <b-avatar button
                           @click="onClick"
                           src="https://placekitten.com/300/300"
-                > Button Image Avatar
-                </b-avatar>
+                ></b-avatar>
+
+                Button Image Avatar
             </b-list-group-item>
 
             <b-list-group-item>
@@ -24,8 +26,9 @@
                           @click="onClick"
                           icon="star-fill"
                           class="align-center"
-                > Button Icon Avatar
-                </b-avatar>
+                ></b-avatar>
+
+                Button Icon Avatar
             </b-list-group-item>
         </b-list-group>
     </div>

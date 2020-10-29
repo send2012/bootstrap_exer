@@ -1,12 +1,11 @@
 <template>
     <div class="b-button">
-        <!-- Pressed state and toggling -->
         <div>
             <h5>
                 Pressed and un-pressed state
             </h5>
             <b-button :pressed="true"
-                      varlant="success"
+                      variant="success"
             > Always Pressed
             </b-button>
             <b-button :pressed="false"
@@ -51,26 +50,35 @@
 
 <script>
     export default {
-        name: 'b-button',
+        /**
+         * @why 如果 name 是 b-button，那么会报这个错误 ->
+         *
+         * @error [Vue warn]: Error in nextTick:
+         *     "RangeError: Maximum call stack size exceeded"
+         *
+         * @todo Understand understand why
+         */
+        // name: 'b-button',
+        name: 'bs-button',
 
         data: () => ( {
             myToggle: false,
-            buttons: [
+            buttons : [
                 {
                     caption: 'Toggle 1',
-                    state: true,
+                    state  : true,
                 },
                 {
                     caption: 'Toggle 2',
-                    state: true,
+                    state  : false,
                 },
                 {
                     caption: 'Toggle 3',
-                    state: true,
+                    state  : true,
                 },
                 {
                     caption: 'Toggle 4',
-                    state: false,
+                    state  : false,
                 },
             ],
         } ),
@@ -78,7 +86,8 @@
         computed: {
             btnStates()
             {
-                return this.buttons.map( btn => btn.state );
+                return this.buttons
+                           .map( btn => btn.state );
             },
         },
     }

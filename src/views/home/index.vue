@@ -35,6 +35,11 @@
                     name: 'b-avatar',
                     url: '/avatar',
                 },
+                {
+                    id: 5,
+                    name: 'bs-button',
+                    url: '/button',
+                },
             ],
         } ),
 

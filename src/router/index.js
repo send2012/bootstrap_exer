@@ -43,8 +43,8 @@ const routes = [
     },
     {
         path: '/button',
-        name: 'b-button',
-        component: () => import( '@/views/button/' )
+        name: 'bs-button',
+        component: () => import( '@/views/button/' ),
     },
 ];
 
