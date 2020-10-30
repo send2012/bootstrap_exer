@@ -36,7 +36,7 @@
                 max: maxDate,
             };
         },
-    }
+    };
 </script>
 
 <style lang="scss"

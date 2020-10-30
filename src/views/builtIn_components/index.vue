@@ -18,7 +18,7 @@
         components: {
             HelloWorld,
         },
-    }
+    };
 </script>
 
 <style lang="scss"

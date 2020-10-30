@@ -62,11 +62,10 @@
                 this.dismissCountDown = this.dismissSecs;
             },
         },
-    }
+    };
 </script>
 
 <style lang="scss"
        scoped
->
-    @import "style";
+> @import "style";
 </style>

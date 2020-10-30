@@ -83,7 +83,7 @@
                 this.sliding = false;
             },
         },
-    }
+    };
 </script>
 
 <style scoped>

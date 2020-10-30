@@ -90,7 +90,7 @@
                            .map( btn => btn.state );
             },
         },
-    }
+    };
 </script>
 
 <style lang="scss"
