@@ -16,29 +16,39 @@
         data: () => ( {
             linkItemList: [
                 {
-                    id: 1,
+                    id  : 1,
                     name: 'about',
-                    url: '/about',
+                    url : '/about',
                 },
                 {
-                    id: 2,
+                    id  : 2,
                     name: 'builtIn-components',
-                    url: '/builtIn_components',
+                    url : '/builtIn_components',
                 },
                 {
-                    id: 3,
+                    id  : 3,
                     name: 'b-alert',
-                    url: '/alert',
+                    url : '/alert',
                 },
                 {
-                    id: 4,
+                    id  : 4,
                     name: 'b-avatar',
-                    url: '/avatar',
+                    url : '/avatar',
                 },
                 {
-                    id: 5,
+                    id  : 5,
                     name: 'bs-button',
-                    url: '/button',
+                    url : '/button',
+                },
+                {
+                    id  : 6,
+                    name: 'b-calendar',
+                    url : '/calendar',
+                },
+                {
+                    id  : 7,
+                    name: 'b-carousel',
+                    url : '/carousel',
                 },
             ],
         } ),
@@ -50,7 +60,7 @@
                     name: goName,
                     path: goUrl,
                 } );
-            }
+            },
         },
     }
 </script>

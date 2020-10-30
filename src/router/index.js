@@ -46,6 +46,16 @@ const routes = [
         name: 'bs-button',
         component: () => import( '@/views/button/' ),
     },
+    {
+        path: '/calendar',
+        name: 'b-calendar',
+        component: () => import( '@/views/calendar/' ),
+    },
+    {
+        path: '/carousel',
+        name: 'b-carousel',
+        component: () => import( '@/views/carousel/' ),
+    },
 ];
 
 const router = new VueRouter( {
