@@ -7,7 +7,7 @@ const routes = [
     {
         path     : '/',
         name     : 'home',
-        meta: {
+        meta     : {
             title: 'home',
         },
         component: () => import( '@/views/home/' ),
@@ -15,7 +15,7 @@ const routes = [
     {
         path     : '/about',
         name     : 'about',
-        meta: {
+        meta     : {
             title: 'about',
         },
         // route level code-splitting
@@ -24,37 +24,42 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ '@/views/about/'),
     },
     {
-        path: '/builtIn_components',
-        name: 'builtIn-components',
-        meta: {
+        path     : '/builtIn_components',
+        name     : 'builtIn-components',
+        meta     : {
             title: 'builtIn-components',
         },
         component: () => import( '@/views/builtIn_components/' ),
     },
     {
-        path: '/alert',
-        name: 'b-alert',
+        path     : '/alert',
+        name     : 'b-alert',
         component: () => import( '@/views/alert/' ),
     },
     {
-        path: '/avatar',
-        name: 'b-avatar',
+        path     : '/avatar',
+        name     : 'b-avatar',
         component: () => import( '@/views/avatar/' ),
     },
     {
-        path: '/button',
-        name: 'bs-button',
+        path     : '/button',
+        name     : 'bs-button',
         component: () => import( '@/views/button/' ),
     },
     {
-        path: '/calendar',
-        name: 'b-calendar',
+        path     : '/calendar',
+        name     : 'b-calendar',
         component: () => import( '@/views/calendar/' ),
     },
     {
-        path: '/carousel',
-        name: 'b-carousel',
+        path     : '/carousel',
+        name     : 'b-carousel',
         component: () => import( '@/views/carousel/' ),
+    },
+    {
+        path     : '/form',
+        name     : 'bs-form',
+        component: () => import( '@/views/form/' ),
     },
 ];
 

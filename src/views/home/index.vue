@@ -50,6 +50,11 @@
                     name: 'b-carousel',
                     url : '/carousel',
                 },
+                {
+                    id  : 8,
+                    name: 'bs-form',
+                    url : '/form',
+                },
             ],
         } ),
 
