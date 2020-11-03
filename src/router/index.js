@@ -61,6 +61,15 @@ const routes = [
         name     : 'bs-form',
         component: () => import( '@/views/form/' ),
     },
+    {
+        path: '/form_checkbox',
+        name: 'form_checkbox',
+        meta: {
+            level: 1,
+            title: 'form_checkbox',
+        },
+        component: () => import( '@/views/form_checkbox/' ),
+    },
 ];
 
 const router = new VueRouter( {

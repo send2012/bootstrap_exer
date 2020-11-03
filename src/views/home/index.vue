@@ -55,6 +55,11 @@
                     name: 'bs-form',
                     url : '/form',
                 },
+                {
+                    id  : 9,
+                    name: 'form_checkbox',
+                    url : '/form_checkbox',
+                },
             ],
         } ),
 
